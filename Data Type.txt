@@ -1,0 +1,61 @@
+DATA TYPES
+
+"Primitive Data Types"
+
+1.NUMBER:
+It is used to represent both Integer as well as Floating-Point numbers
+for example;
+let x: number = 5;
+console.log(x); 
+// Output: 5
+
+2.STRING:
+It is used to represent a sequence of characters.
+It can be letters,numbers,alphabets,symbols or any character within quotations.
+We usually store alphabetica data in a string.
+for example;
+let message: string = "Hello, World!";
+console.log(message); 
+// Output: Hello, World!
+
+3.BOOLEAN:
+Represents true and false
+let isTrue: boolean = true;
+let isFalse: boolean = false;
+console.log(isTrue); 
+// Output: true
+console.log(isFalse); 
+// Output: false
+
+4.NULL:It is used when an object does not have any value.
+for example;
+let numberOrNull: number | null = null;
+console.log(numberOrNull);
+ // Output: null
+
+5.VOID:
+Generally used on function return-types.
+for example;
+function sayHello(): void {
+    console.log("Hello, World!");
+}
+
+sayHello(); 
+// Output: Hello, World!
+
+6.UNDEFINED:
+Denotes value given to uninitialized variable.
+for example;
+let undefinedValue: undefined = undefined;
+console.log(undefinedValue); 
+// Output: undefined
+
+7.ANY:
+If variable is declared with any data-type then any type of value can be assigned to that variable.
+for example;
+let dynamicValue: any = "Hello, World!";
+console.log(dynamicValue); 
+// Output: Hello, World!
+dynamicValue = 5;
+console.log(dynamicValue);
+ // Output: 5
